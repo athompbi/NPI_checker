@@ -1,2 +1,48 @@
 # NPI_checker
 Checks NPIs for medical prescribers by verifying values add up correctly
+
+
+NPI_checker
+Checks NPIs for medical prescribers by verifying values add up correctly
+
+
+About The Project
+This project was created to check the NPI and DEA number of medical prescibers and perfom the math required to verify that it a possibly valid NPI number.
+It was created as a way to prepare for the pharmacy technician certification. This project does not run the numbers through a database to check if 
+prescriber is registered. It only checks if the number is possibly valid. 
+
+
+Built With
+Visual Studio Code
+
+
+Getting Started
+Make sure you have Python 3.8.0 or newer installed and running on your machine. Open a terminal and browse to the project's root folder. Start the program by running the following command.
+python3 __main__.py 
+You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the project folder. Select the main module inside the hunter folder and click the "run" icon.
+
+
+Required Technologies
+Python 3.8.0
+
+
+Project Structure
+The project files and folders are organized as follows:
+
+root                    (project root folder)
++-- NPI_checker         (source code)
+  +-- program           (specific classes)
+  +-- __main__.py       (program entry point)
+  +-- README.md         (general info)
+
+
+Usage
+This program can be used to determine if an NPI number is valid. It can also be used as a checking tool when studying for the pharmacy technician certification exam to verify that answers to NPI math questions. 
+
+
+Author
+Alexa Thompson 
+
+
+Project Link: https://github.com/athompbi/NPI_checker
+
