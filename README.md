@@ -1,15 +1,15 @@
 # NPI_checker
-Checks NPIs for medical prescribers by verifying values add up correctly
+Checks NPI numbers and DEA numbers for medical prescribers by verifying values add up correctly.
 
 
 NPI_checker
-Checks NPIs for medical prescribers by verifying values add up correctly
+Checks NPI numbers and DEA numbers for medical prescribers by verifying values add up correctly.
 
 
 About The Project
 This project was created to check the NPI and DEA number of medical prescibers and perfom the math required to verify that it a possibly valid NPI number.
-It was created as a way to prepare for the pharmacy technician certification. This project does not run the numbers through a database to check if 
-prescriber is registered. It only checks if the number is possibly valid. 
+It was created as a way to prepare for the pharmacy technician certification. This project does not run the numbers through a database to check if a
+prescriber is registered. It only checks if the number is possibly valid based on checksum values.
 
 
 Built With
@@ -31,13 +31,12 @@ The project files and folders are organized as follows:
 
 root                    (project root folder)
 +-- NPI_checker         (source code)
-  +-- program           (specific classes)
   +-- __main__.py       (program entry point)
   +-- README.md         (general info)
 
 
 Usage
-This program can be used to determine if an NPI number is valid. It can also be used as a checking tool when studying for the pharmacy technician certification exam to verify that answers to NPI math questions. 
+This program can be used to determine if an NPI or DEA number is valid. It can also be used as a checking tool when studying for the pharmacy technician certification exam to verify answers to NPI and DEA number math questions. This program cannot be used to check if an NPI or DEA number is registered to a medical provider. 
 
 
 Author
